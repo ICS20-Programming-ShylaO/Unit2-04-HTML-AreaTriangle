@@ -43,36 +43,63 @@
             </th>
           </tr>
         </table>
-        <!-- Simple Textfield -->
+        <!-- Simple Textfield for Side A -->
         <form action="#">
-          <p>Length</p>
+          <p>Side A</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="length-of-rectangle"
+              id="side-a-triangle"
             />
-            <label class="mdl-textfield__label" for="length-of-rectangle">length ...</label>
+            <label class="mdl-textfield__label" for="side-a-triangle">Side A ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
 				
-        <!-- Numeric Textfield -->
+        <!-- Numeric Textfield for Side B -->
         <form action="#">
-          <p>Width</p>
+          <p>Side B</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="width-of-rectangle"
+              id="side-b-triangle"
             />
-            <label class="mdl-textfield__label" for="width-of-rectangle">width ...</label>
+            <label class="mdl-textfield__label" for="side-b-triangle">Side B ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-				
+        <!-- Numeric Textfield for Base -->
+				<form action="#">
+          <p>Base</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="base-triangle"
+            />
+            <label class="mdl-textfield__label" for="base-triangle">Base ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <!-- Numeric Textfield for Height -->
+				<form action="#">
+          <p>Height</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height-triangle"
+            />
+            <label class="mdl-textfield__label" for="height-triangle">Height ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
