@@ -5,11 +5,11 @@
 */
 
 body {
-  background-color: #C5D86D;
+  background-color: #c5d86d;
 }
 
 h2 {
-  background-color: #54611A;
+  background-color: #54611a;
   color: whitesmoke;
   padding: 40px;
   text-align: center;
@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  background-color: #54611A;
+  background-color: #54611a;
   color: whitesmoke;
   padding: 40px;
   text-align: center;
@@ -27,9 +27,9 @@ h3 {
 }
 
 p {
-  background-color: #A7C133;
+  background-color: #a7c133;
   font-weight: bold;
-  color: #0E1004;
+  color: #0e1004;
   padding: 40px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
