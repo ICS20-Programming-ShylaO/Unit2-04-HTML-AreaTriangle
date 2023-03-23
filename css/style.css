@@ -1,5 +1,5 @@
 /* Created by: Shyla Oommen
-* Created on: Feb 2023
+* Created on: Mar 2023
 * This CSS file defines the style for index.html
 * ICS2O-Programming-Unit2-04-HTML-AreaTriangle
 */
@@ -8,7 +8,7 @@ body {
   background-color: #c5d86d;
 }
 
-h2 {
+h1 {
   background-color: #54611a;
   color: whitesmoke;
   padding: 40px;
@@ -17,7 +17,7 @@ h2 {
   font-size: 300%;
 }
 
-h3 {
+h2 {
   background-color: #54611a;
   color: whitesmoke;
   padding: 40px;
